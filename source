@@ -4258,7 +4258,7 @@ local EmbeddedModules = {
 			ScriptViewer.Init = function()
 				window = Lib.Window.new()
 				window:SetTitle("Script Viewer")
-				window:Resize(300, 700)
+				window:Resize(300, 1000)
 				ScriptViewer.Window = window
 
 				codeFrame = Lib.CodeFrame.new()
